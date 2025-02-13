@@ -6,4 +6,4 @@ ALTER TABLE subject ADD CONSTRAINT grade_check CHECK (grade >= 1 AND grade <= 5)
 alter table PaymentType ADD UNIQUE (name);
 alter table Payment alter column type_id set NOT NULL;
 alter table Payment alter column amount set NOT NULL;
-alter table Payment alter column date set NOT NULL;
+alter table Payment alter column payment_date set NOT NULL;
